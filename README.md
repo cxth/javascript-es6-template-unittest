@@ -7,8 +7,9 @@ JavaScript ES6 boilerplate for Unit Testing, etc..
 ```bash
 npm install
 ```
-
 ## Testing
+
+Set the test path on package.json
 
 ```bash
 npm test
