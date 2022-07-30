@@ -11,7 +11,7 @@
     "eslint-plugin-vue": "^9.1.1"
   },
   "scripts": {
-    "test": "mocha 'test/maxSequence/test.js'"
+    "test": "mocha 'test/sameArray/test.js'"
   },
   "type": "module"
 }
