@@ -27,8 +27,9 @@ export function same2(arr1, arr2) {
   if (arr1.length !== arr2.length) {
     return false
   }
-  for (let i=0; i<=arr1.length; i++) {
+  for (let i=0; i < arr1.length; i++) {
     let correctIndex = arr2.indexOf(arr1[i] ** 2)
+    //console.log({correctIndex})
     if (correctIndex === -1) {
       return false
     }
@@ -37,6 +38,6 @@ export function same2(arr1, arr2) {
   return true
 }
 
-console.log(same2([1,2,1], [4,4,1]))
+console.log(same2([1,2,3], [4,1,9]))
 console.log(same2([1,2,3], [1,9]))
 console.log(same2([1,2,1], [4,4,1]))
