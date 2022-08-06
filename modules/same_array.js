@@ -66,8 +66,8 @@ export function same4(arr1, arr2) {
   for (let val of arr2) {
     frequencyCounter2[val] = (frequencyCounter2[val] || 0) + 1
   }
-  console.log(frequencyCounter1) // arr[value] = n (frequency count)
-  console.log(frequencyCounter2)
+  // console.log(frequencyCounter1) // arr[value] = n (frequency count)
+  // console.log(frequencyCounter2)
   //validate
   for (let key in frequencyCounter1) {
     // get key, squared then look for matching frequencyCounter key
@@ -85,4 +85,4 @@ export function same4(arr1, arr2) {
 // console.log(same4([1,2,3], [4,1,9]))
 // console.log(same4([1,2,3], [1,9]))
 // console.log(same4([1,2,1], [4,4,1]))
-console.log(same4([3,4,5,3], [25,9,9,16]))
+// console.log(same4([3,4,5,3], [25,9,9,16]))
